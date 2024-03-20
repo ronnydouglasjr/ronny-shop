@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: black;
+  padding: 15px 0px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1,
+ul li a{
+  font-family: "Bungee", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+/* Main */ 
+
+section .brand-lists {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+} 
+
+
+section .container {
+  display: block;
+  margin-top: 40px;
+}
+
+section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  padding-bottom: 23px;
+}
+
+section h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+
+.product-list article img {
+  width: 100%;
+}
+
+.product-list article {
+  width: 30%;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  gap: 15px;
+}
+
+article {
+  border: 2px solid #F0F3F4;
+  box-shadow: rgba(99,99,99,0.1) 0px 1px 5px 0px;;
+  padding: 12px;
+}
+
+.brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 20px 0px;
+}
+
+.off {
+  font-weight: bold;
+  color: #fff;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(16, 186, 120, 0.8);
+}
+
+.old-value {
+  color: rgb(153, 153, 153);
+  text-decoration: line-through;
+}
+
+/* Form */
+
+form {
+  margin-bottom: 40px;
+}
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-methods h2 {
+  margin-bottom: 15px;
+}
+
+#contact .container h1 {
+  padding-bottom: 30px;
+}
+
+form input {
+  height: 35px;
+}
+
+form input, textarea {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  resize: none;
+}
+
+input {
+  padding: 0px 5px;
+}
+
+
+form input::placeholder, form textarea::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+form textarea::placeholder {
+  padding: 5px;
+}
+
+
+input[type="submit"] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  transition: 1s;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+ul li img {
+  height: 35px;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  padding: 26px 0px;
+}
+
+footer span {
+  color: #fff;
+}
